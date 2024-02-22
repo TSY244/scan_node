@@ -11,7 +11,7 @@ import tools.redis_tools.my_redis as my_redis
 import tools.ip_tools.ip_tools as ip_tools
 import info_gathering.scan_port.scan_port as Scan_port
 import info_gathering.areas.areas as Area
-
+import tools.TideFinger.TideFinger as TideFinger
 
 # init loguru
 # loguru.logger.add("server.log", rotation="500 MB", retention="10 days", level="INFO")
@@ -94,10 +94,10 @@ def worker(redis: my_redis.Redis):
 
         # subdomain
 
-        # webfile
+        # web file
         
-
         # Fingerprint collection
+        fingerprint=TideFinger.run(value,ports)  # return is a dict
 
         # Vulnerability detection
 
@@ -145,18 +145,14 @@ def main():
 
     worker(redis=redis)
 
-def test(ip):
-    ports = Scan_port.run(ip)
-    print(ports)
-
-    area=Area.run(ip)
-    print(area)
-    
+def test(ip,port):
+    ret=TideFinger.run(ip,port)
+    print(ret)
 
     
 
 if __name__=="__main__":
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
-    main()
-    # test('8.130.123.25')
+    # main()
+    test('192.168.79.128',8080)

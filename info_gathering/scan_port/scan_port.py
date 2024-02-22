@@ -7,11 +7,8 @@ try:
     import info_gathering.scan_port.nmap as nmap
 except:
     import nmap
-try:
-    from server.tools import ip_tools as ip_tools
-except:
-    sys.path.append(os.path.join(os.path.dirname(__file__), '..\\..\\ip_tools'))
-    import server.tools.ip_tools as ip_tools
+import tools.ip_tools as ip_tools
+import tools.redis_tools as my_redis
 
 
 g_ports=[]
