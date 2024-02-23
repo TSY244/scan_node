@@ -12,6 +12,8 @@ import tools.ip_tools.ip_tools as ip_tools
 import info_gathering.scan_port.scan_port as Scan_port
 import info_gathering.areas.areas as Area
 import tools.TideFinger.TideFinger as TideFinger
+import tools.vulmap.run as Vulmap
+import tools.read_scan_vuls_ret as read_vuls
 
 # init loguru
 # loguru.logger.add("server.log", rotation="500 MB", retention="10 days", level="INFO")
@@ -100,6 +102,13 @@ def worker(redis: my_redis.Redis):
         fingerprint=TideFinger.run(value,ports)  # return is a dict
 
         # Vulnerability detection
+        for port in ports:
+            Vulmap.start(value,port)
+        vuls=read_vuls.read_data()
+
+        # crete json
+        
+
 
 
 
