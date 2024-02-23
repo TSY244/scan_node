@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 import loguru
 
 # init log
-loguru.logger.add("../../log/error.log", rotation="5 MB", retention="10 days", level="ERROR")
+loguru.logger.add("log/error.log", rotation="5 MB", retention="10 days", level="ERROR")
 
 
 def output(types, item):
