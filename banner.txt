@@ -1,2 +1,0 @@
-http://192.168.79.128:8080   JBoss Application Server | Java | Java Servlet | Apache Tomcat
-http://192.168.79.128:8080   JBoss Application Server | Java | Java Servlet | Apache Tomcat
