@@ -104,9 +104,11 @@ def worker(redis: my_redis.Redis):
         # Vulnerability detection
         for port in ports:
             Vulmap.start(value,port)
-        vuls=read_vuls.read_data()
+        vuls=read_vuls.read_data("ret/vuls.txt")
 
         # crete json
+        
+        
         
 
 

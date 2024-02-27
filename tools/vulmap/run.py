@@ -68,7 +68,7 @@ def test(url):
     rhj.cve_2015_7501_poc()
     rhj.cve_2017_12149_poc()
 
-def start(ip,port):
+def start(ip,port:str):
 
     args=arg()
 
