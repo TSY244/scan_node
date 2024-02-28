@@ -1,13 +1,14 @@
-with open("ret/vuls.txt",'r',encoding="utf-8") as f:
-    rets=f.readlines()
+import tools.UseElasticSearch.UseElasticSearch as ES
 
-data=eval(rets[0])
-print(data)
-print(type(data))
+es=ES.MyElasticSearch("192.168.79.128",9200)
+es.connect()
+es.delete_index("info")
+es.delete_index("vuls")
 
-data["sdaf"]="sadfsadf"
 
-print(data)
+# data["sdaf"]="sadfsadf"
+
+# print(data)
 
 # import tools.vulmap.run as vulmap_run
 # import tools.read_scan_vuls_ret as read_vuls

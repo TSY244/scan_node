@@ -1,13 +1,19 @@
 from elasticsearch import Elasticsearch
-import json
 
 class MyElasticSearch:
-    def __init__(self, host, port):
+    def __init__(self, host, port,user=None,passwd=None):
+        self.user=user
+        self.passwd=passwd
         self.url="http://"+host+":"+str(port)
         self.es=None
 
     def connect(self):
-        self.es = Elasticsearch([self.url])
+        if self.user and self.passwd:
+            self.es = Elasticsearch([self.url],http_auth=(self.user,self.passwd))
+        elif self.user:
+            self.es = Elasticsearch([self.url],http_auth=self.user)
+        else:
+            self.es = Elasticsearch([self.url])
         if self.es.ping():
             return True
         else:
@@ -46,5 +52,11 @@ class MyElasticSearch:
     def search_data(self,index_name,size:int=10):
         result = self.es.search(index=index_name,size=size)
         return result
+    
+    def if_index_exit(self,index_name):
+        if self.es.indices.exists(index_name):
+            return True
+        return False
+    
 
 

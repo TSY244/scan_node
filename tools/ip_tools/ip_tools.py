@@ -18,9 +18,10 @@ def check_ip_if_valid(ip):
         assert len(ip)==4
         for i in ip:
             assert 0<=int(i)<=255
+        return True
     except:
         loguru.logger.error("ip is not valid")
-        sys.exit(1)
+        return False
 
 def get_ip_start_and_ipend(ip_range: str):
     # use network segment to get ip list
@@ -64,7 +65,7 @@ def check_ip_if_connectable(ip):
     try:
         ret=ping3.ping(ip, timeout=1)
         if ret==None:
-            loguru.logger.error("ip can't connect")
+            loguru.logger.error("{ip} can't connect")
             return False
         else:
             return True
@@ -80,6 +81,15 @@ def use_ip_get_domain(ip):
     except:
         loguru.logger.error("ip get domain error")
         return None
+
+def check_port_if_valid(port):
+    port=int(port) if type(port)==str else port
+    try:
+        assert 0<=port<=65535
+        return True
+    except:
+        loguru.logger.error("port is not valid")
+        return False
 
 if __name__ == "__main__":
     get_ip_start_and_ipend("192.168.79.0/16")

@@ -1,0 +1,170 @@
+2024-02-28 12:52:00.604 | ERROR    | __main__:worker:115 - es_host is invalid
+2024-02-28 12:52:00.604 | ERROR    | __main__:worker:115 - es_host is invalid
+2024-02-28 12:55:59.516 | ERROR    | __main__:worker:115 - es_host is invalid
+2024-02-28 12:55:59.516 | ERROR    | __main__:worker:115 - es_host is invalid
+2024-02-28 12:56:14.141 | ERROR    | __main__:worker:115 - es_host is invalid
+2024-02-28 12:56:14.141 | ERROR    | __main__:worker:115 - es_host is invalid
+2024-02-28 12:57:05.517 | ERROR    | tools.ip_tools.ip_tools:check_port_if_valid:90 - port is not valid
+2024-02-28 12:57:05.517 | ERROR    | tools.ip_tools.ip_tools:check_port_if_valid:90 - port is not valid
+2024-02-28 12:57:05.518 | ERROR    | __main__:worker:115 - es_port is invalid
+2024-02-28 12:57:05.518 | ERROR    | __main__:worker:115 - es_port is invalid
+2024-02-28 12:57:44.376 | ERROR    | tools.ip_tools.ip_tools:check_port_if_valid:90 - port is not valid
+2024-02-28 12:57:44.376 | ERROR    | tools.ip_tools.ip_tools:check_port_if_valid:90 - port is not valid
+2024-02-28 12:58:18.292 | ERROR    | tools.ip_tools.ip_tools:check_port_if_valid:90 - port is not valid
+2024-02-28 12:58:18.292 | ERROR    | tools.ip_tools.ip_tools:check_port_if_valid:90 - port is not valid
+2024-02-28 12:58:20.932 | ERROR    | __main__:worker:115 - es_port is invalid
+2024-02-28 12:58:20.932 | ERROR    | __main__:worker:115 - es_port is invalid
+2024-02-28 13:01:31.952 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:01:31.952 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:01:32.964 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:01:32.964 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:07:58.119 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:07:58.119 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:07:59.128 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:07:59.128 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:00.152 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:00.152 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:01.161 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:01.161 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:02.171 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:02.171 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:25.350 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:25.350 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:26.358 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:26.358 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:27.382 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:08:27.382 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:12:35.973 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:12:35.973 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:12:36.986 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:12:36.986 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:12:38.007 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:12:38.007 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:12:59.034 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:12:59.034 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:16:55.902 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:16:55.902 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:16:56.913 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:16:56.913 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:16:57.923 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 13:16:57.923 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 16:44:04.164 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 16:44:04.164 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 16:44:35.636 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 16:44:35.636 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 16:45:06.986 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 16:45:06.986 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 16:45:43.276 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-02-28 16:45:43.276 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-02-28 16:48:53.646 | ERROR    | core.verify:timeout_print:71 - The target is Oracle Weblogic: CVE-2021-2109 connection timeout
+2024-02-28 16:48:53.646 | ERROR    | core.verify:timeout_print:71 - The target is Oracle Weblogic: CVE-2021-2109 connection timeout
+2024-02-28 16:52:07.623 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 16:52:07.623 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 16:52:39.061 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 16:52:39.061 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 16:53:10.432 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 16:53:10.432 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 16:54:52.146 | ERROR    | __main__:worker:188 - 'es_index'
+2024-02-28 16:54:52.146 | ERROR    | __main__:worker:188 - 'es_index'
+2024-02-28 17:14:43.525 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:43.525 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:44.549 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:44.549 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:45.557 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:45.557 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:46.570 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:46.570 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:47.581 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:47.581 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:48.609 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:48.609 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:49.622 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:49.622 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:50.665 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:50.665 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:51.687 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:51.687 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:52.700 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:14:52.700 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:19:15.702 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 17:19:15.702 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 17:19:47.135 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 17:19:47.135 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 17:20:20.542 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 17:20:20.542 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 17:21:03.569 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-02-28 17:21:03.569 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-02-28 17:23:54.896 | ERROR    | core.verify:timeout_print:71 - The target is Oracle Weblogic: CVE-2021-2109 connection timeout
+2024-02-28 17:23:54.896 | ERROR    | core.verify:timeout_print:71 - The target is Oracle Weblogic: CVE-2021-2109 connection timeout
+2024-02-28 17:26:03.732 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 17:26:03.732 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 17:26:35.182 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 17:26:35.182 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 17:27:06.508 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 17:27:06.508 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 17:27:49.609 | ERROR    | __main__:worker:190 - 'es_index'
+2024-02-28 17:27:49.609 | ERROR    | __main__:worker:190 - 'es_index'
+2024-02-28 17:28:51.105 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:51.105 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:52.114 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:52.114 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:53.124 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:53.124 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:54.132 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:54.132 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:55.141 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:55.141 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:56.151 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:56.151 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:57.159 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:57.159 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:58.179 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:58.179 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:59.192 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:28:59.192 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:29:00.214 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:29:00.214 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:29:01.233 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:29:01.233 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:29:02.254 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:29:02.254 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:34:28.729 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 17:34:28.729 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 17:35:00.147 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 17:35:00.147 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 17:35:31.553 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 17:35:31.553 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 17:36:03.499 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-02-28 17:36:03.499 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-02-28 17:38:54.947 | ERROR    | core.verify:timeout_print:71 - The target is Oracle Weblogic: CVE-2021-2109 connection timeout
+2024-02-28 17:38:54.947 | ERROR    | core.verify:timeout_print:71 - The target is Oracle Weblogic: CVE-2021-2109 connection timeout
+2024-02-28 17:41:03.771 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 17:41:03.771 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-02-28 17:41:35.174 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 17:41:35.174 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-02-28 17:42:06.540 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 17:42:06.540 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-02-28 17:43:03.098 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:03.098 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:04.121 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:04.121 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:05.135 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:05.135 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:06.155 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:06.155 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:07.163 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:07.163 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:08.174 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:08.174 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:09.183 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:09.183 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:10.191 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:10.191 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:11.200 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:11.200 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:12.214 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:12.214 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:13.221 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:13.221 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:14.232 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
+2024-02-28 17:43:14.232 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - ip can't connect
