@@ -1,9 +1,30 @@
-import tools.UseElasticSearch.UseElasticSearch as ES
+import info_gathering.web_path_scanner.scanner as web_path_scanner
 
-es=ES.MyElasticSearch("192.168.79.128",9200)
-es.connect()
-es.delete_index("info")
-es.delete_index("vuls")
+
+# web_path_scanner.scanner(ip="192.168.79.128",file_path="db",threads=10)
+
+file_list = web_path_scanner.get_dir("db")
+
+for file_name in file_list:
+    with open("db/"+file_name, "r") as f:
+        while True:
+            line = f.readline()
+            if not line:
+                break
+            print(line)
+
+
+
+
+# web_path_scanner.scanner("test", "test",dir_path=dir_path)
+
+
+# import tools.UseElasticSearch.UseElasticSearch as ES
+
+# es=ES.MyElasticSearch("192.168.79.128",9200)
+# es.connect()
+# es.delete_index("info")
+# es.delete_index("vuls")
 
 
 # data["sdaf"]="sadfsadf"
