@@ -2,7 +2,7 @@
 import threading
 import uuid
 
-from thirdparty import requests.exceptions as exc
+from thirdparty import requests as exc
 
 from .._compat import queue
 

@@ -309,6 +309,7 @@ def main():
                            message_name=message_queue_name)
     redis.connect()
 
+
     # run worker
     worker(redis=redis,es=es,web_path_scan=wps)
 
@@ -320,5 +321,5 @@ def test(ip:str):
 if __name__=="__main__":
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
-    # main()
-    test('192.168.79.128')
+    main()
+    # test('192.168.79.128')
