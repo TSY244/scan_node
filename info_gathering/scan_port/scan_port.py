@@ -44,7 +44,7 @@ def scanner(host,port):
         return ports
     except:
         print(f"端口扫描失败")
-        return []
+        return None
 
 def run(host):
     ports=getConfig()

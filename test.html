@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="/static/img/avatar.jpg">
+
+    <meta name="author" content="RapidDNS">
+
+    <meta name="description"
+        content="RapidDNS is a domain name information query system that supports querying information about websites, subdomains and the same ip website. RapidDNS supports A, AAAA, CNAME, CERTIFICATE and MX  types.">
+
+    <meta name="keywords"
+        content="DNS,lookup,A,AAAA,CNAME,MX,CERTIFICATE,ssl,https,commond name,dns record,recon,pentest,bug bounty,hacker101,subdomain,same ip website,whois,web security,ipv4,ipv6,ip,network,RapidDNS  ,hetianlab.com ">
+
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="/static/css/linearicons.css">
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/magnific-popup.css">
+    <link rel="stylesheet" href="/static/css/nice-select.css">
+    <link rel="stylesheet" href="/static/css/animate.min.css">
+    <link rel="stylesheet" href="/static/css/owl.carousel.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2244172923770966"
+        crossorigin="anonymous"></script>
+
+
+    <title> hetianlab.com Subdomain - RapidDNS Rapid DNS Information Collection</title>
+    <script>
+        function query() {
+            keyword = document.getElementById("keyword").value;
+            if (keyword != "") {
+                location.href = '/s/' + keyword + '#result'
+            }
+        }
+
+        function exportData(d) {
+            keyword = document.getElementById("keyword").value;
+            if (d == 1) {
+                location.href = '/s/' + keyword + '?full=1&down=1#result'
+            } else {
+                $('#table').tableExport({
+                    fileName: keyword,
+                    type: 'csv'
+                });
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="/"><span class="text-white" style="font-size:30px;">RapidDNS</span></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu" class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/sameip">Reverse IP</a></li>
+                        <li><a href="/subdomain">Subdomain</a></li>
+
+
+                        <li><a href="/tools">tools</a></li>
+                        <li><a href="https://twitter.com/rapiddns">Twitter</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+    <section class="home-banner-area relative">
+        <div class="container">
+            <div class="row fullscreen d-flex align-items-center justify-content-center">
+                <div class="banner-content col-lg-8 col-md-12">
+                    <h1 class="wow fadeIn" data-wow-duration="2s">Search</h1>
+                    <p class="text-white">
+                        RapidDNS is a dns query tool which make querying subdomains or sites of a same ip easy!
+                    </p>
+                    <div class="input-wrap">
+                        <form action class="form-box d-flex justify-content-between" method="get">
+                            <input type="text" placeholder="Please input domain , keyword, ip, ip range"
+                                class="form-control" id="keyword" value="hetianlab.com" />
+                            <button type="button" class="btn search-btn " onclick="query()">Query</button>
+                        </form>
+                    </div>
+                    <h4 class="text-white ">Examples</h4>
+                    <div class="courses pt-20">
+                        <a href="/s/52.74.223.119#result" data-wow-duration="1s" data-wow-delay=".3s"
+                            class="primary-btn transparent mr-10 mb-10 wow fadeInDown">52.74.223.119</a>
+                        <a href="/s/apple#result" data-wow-duration="1s" data-wow-delay=".6s"
+                            class="primary-btn transparent mr-10 mb-10 wow fadeInDown">apple</a>
+                        <a href="/s/twitter.com#result" data-wow-duration="1s" data-wow-delay=".9s"
+                            class="primary-btn transparent mr-10 mb-10 wow fadeInDown">twitter.com</a>
+                        <a href="/s/2a03:2880:f231:c5:face:b00c:0:43fe#result" data-wow-duration="1s"
+                            data-wow-delay="1.2s"
+                            class="primary-btn transparent mr-10 mb-10 wow fadeInDown">2a03:2880:f231:c5:face:b00c:0:43fe</a>
+                        <a href="/s/129.134.0.0/16#result" data-wow-duration="1s" data-wow-delay="1.5s"
+                            class="primary-btn transparent mr-10 mb-10 wow fadeInDown">129.134.0.0/16</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rocket-img">
+            <img src="/static/img/rocket.png" alt>
+        </div>
+    </section>
+
+    <section class="post-content-area">
+        <div class="container" id="result">
+            <div class="row">
+                <div class="col-lg-12 posts-list" style="margin-top:20px;">
+                    <div class="d-flex align-items-left"
+                        style="justify-content: space-between;align-items: center; margin-bottom: 10px;">
+                        <div style="display: flex;flex: 1;overflow: hidden;white-space: nowrap; align-items: left;">
+                            <svg t="1586275261377" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="5166" width="18" height="18"
+                                style="margin-right: 5px;">
+                                <path
+                                    d="M861.866667 755.2c-12.8 0-21.333333-8.533333-21.333334-21.333333V328.533333c0-12.8 8.533333-21.333333 21.333334-21.333333s21.333333 8.533333 21.333333 21.333333v405.333334c0 12.8-8.533333 21.333333-21.333333 21.333333zM618.666667 998.4H213.333333c-55.466667 0-98.133333-42.666667-98.133333-98.133333V162.133333c0-55.466667 42.666667-98.133333 98.133333-98.133333h396.8c12.8 0 21.333333 8.533333 21.333334 21.333333s-8.533333 21.333333-21.333334 21.333334H213.333333c-29.866667 0-55.466667 25.6-55.466666 55.466666v738.133334c0 29.866667 25.6 55.466667 55.466666 55.466666h405.333334c12.8 0 21.333333 8.533333 21.333333 21.333334s-8.533333 21.333333-21.333333 21.333333z"
+                                    fill="#1296db" p-id="5167"></path>
+                                <path
+                                    d="M776.533333 994.133333H682.666667c-12.8 0-21.333333-8.533333-21.333334-21.333333s8.533333-21.333333 21.333334-21.333333h93.866666c34.133333 0 64-29.866667 64-64v-85.333334c0-12.8 8.533333-21.333333 21.333334-21.333333s21.333333 8.533333 21.333333 21.333333v85.333334c0 59.733333-46.933333 106.666667-106.666667 106.666666z"
+                                    fill="#1296db" p-id="5168"></path>
+                                <path
+                                    d="M857.6 358.4h-170.666667c-59.733333 0-106.666667-46.933333-106.666666-106.666667v-170.666666c0-12.8 8.533333-21.333333 21.333333-21.333334s21.333333 8.533333 21.333333 21.333334v170.666666c0 34.133333 29.866667 64 64 64h170.666667c12.8 0 21.333333 8.533333 21.333333 21.333334s-8.533333 21.333333-21.333333 21.333333z"
+                                    fill="#1296db" p-id="5169"></path>
+                                <path
+                                    d="M857.6 345.6c-4.266667 0-12.8 0-17.066667-4.266667L597.333333 98.133333c-8.533333-8.533333-8.533333-21.333333 0-29.866666s21.333333-8.533333 29.866667 0l243.2 243.2c8.533333 8.533333 8.533333 21.333333 0 29.866666 0 4.266667-8.533333 4.266667-12.8 4.266667zM605.866667 477.866667h-384c-12.8 0-21.333333-8.533333-21.333334-21.333334s8.533333-21.333333 21.333334-21.333333h384c12.8 0 21.333333 8.533333 21.333333 21.333333s-8.533333 21.333333-21.333333 21.333334zM776.533333 563.2h-384c-12.8 0-21.333333-8.533333-21.333333-21.333333s8.533333-21.333333 21.333333-21.333334h384c12.8 0 21.333333 8.533333 21.333334 21.333334s-8.533333 21.333333-21.333334 21.333333zM307.2 563.2h-85.333333c-12.8 0-21.333333-8.533333-21.333334-21.333333s8.533333-21.333333 21.333334-21.333334h85.333333c12.8 0 21.333333 8.533333 21.333333 21.333334s-8.533333 21.333333-21.333333 21.333333z"
+                                    fill="#1296db" p-id="5170"></path>
+                                <path
+                                    d="M776.533333 648.533333h-384c-12.8 0-21.333333-8.533333-21.333333-21.333333s8.533333-21.333333 21.333333-21.333333h384c12.8 0 21.333333 8.533333 21.333334 21.333333s-8.533333 21.333333-21.333334 21.333333z"
+                                    fill="#1296db" p-id="5171"></path>
+                                <path
+                                    d="M307.2 648.533333h-85.333333c-12.8 0-21.333333-8.533333-21.333334-21.333333s8.533333-21.333333 21.333334-21.333333h85.333333c12.8 0 21.333333 8.533333 21.333333 21.333333s-8.533333 21.333333-21.333333 21.333333z"
+                                    fill="#1296db" p-id="5172"></path>
+                            </svg>
+                        </div>
+                        <div style="color:#39cfca;text-overflow:ellipsis;overflow:hidden;flex: 1;align:left">
+                            hetianlab.com
+                        </div>
+                        <div style="margin: 0 8px;">Total: <span style="color: #39cfca; ">135</span></div>
+                        <button type="button" class="btn btn-info btn-sm " onclick="exportData(0)"
+                            style="margin-bottom:5px;float:right;">Export CSV</button>
+                    </div>
+                    <nav class="blog-pagination justify-content-center d-flex">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a href="#result" class="page-link" aria-label="Prev" ">
+<span aria-hidden=" true ">
+<span class=" lnr lnr-chevron-left "></span>
+</span>
+</a>
+</li>
+<li class=" page-item active ">
+<a href=" #result " class=" page-link ">1</a></li>
+<li class=" page-item "><a href=" #result " class=" page-link ">...</a></li>
+<li class=" page-item "><a href=" /s/hetianlab.co

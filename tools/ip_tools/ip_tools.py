@@ -20,7 +20,7 @@ def check_ip_if_valid(ip):
             assert 0<=int(i)<=255
         return True
     except:
-        loguru.logger.error("ip is not valid")
+        loguru.logger.error(f"ip {ip} is not valid")
         return False
 
 def get_ip_start_and_ipend(ip_range: str):
@@ -52,7 +52,7 @@ def get_ip_start_and_ipend(ip_range: str):
             ip_end[complete_number_of_eight_binary_digits-1]=str(max_incomplete_octet)
         ip_end='.'.join(ip_end)
     else:
-        loguru.logger.error("ip_range is not valid")
+        loguru.logger.error(f"ip_range {ip_range} is not valid")
         exit(1)
 
     check_ip_if_valid(ip_start)
@@ -65,7 +65,7 @@ def check_ip_if_connectable(ip):
     try:
         ret=ping3.ping(ip, timeout=1)
         if ret==None:
-            loguru.logger.error("{ip} can't connect")
+            loguru.logger.error(f"{ip} can't connect")
             return False
         else:
             return True
@@ -79,7 +79,7 @@ def use_ip_get_domain(ip):
         domain=socket.gethostbyaddr(ip)[0]
         return domain
     except:
-        loguru.logger.error("ip get domain error")
+        loguru.logger.error(f"ip {ip} get domain error")
         return None
 
 def check_port_if_valid(port):
@@ -88,7 +88,7 @@ def check_port_if_valid(port):
         assert 0<=port<=65535
         return True
     except:
-        loguru.logger.error("port is not valid")
+        loguru.logger.error(f"port {port} is not valid")
         return False
 
 if __name__ == "__main__":

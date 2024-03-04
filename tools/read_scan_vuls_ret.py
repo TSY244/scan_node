@@ -3,7 +3,6 @@ import os
 import sys
 
 
-
 def read_data(file_name):
     if not os.path.exists(file_name):
         raise Exception("file not exists")

@@ -21,9 +21,8 @@ loguru.logger.add("/log/error.log", rotation="500 MB", retention="10 days", leve
 
 
 g_debug=0
-
 g_use_ips=[]
-
+g_time=0
 
 def signal_handler(signal, frame):
     loguru.logger.error("exit")
@@ -64,7 +63,7 @@ def get_config():
     wpc_thread=config['web_path_scanner']['thread']
     web_path_scan={
         "mode":wpc_mode,
-        "thread":wpc_thread
+        "thread":int(wpc_thread)
     }
 
 
@@ -76,6 +75,9 @@ def get_ip(redis: my_redis.Redis):
     while True:
         if redis.check_ack_if_hava_value():
             key, value = redis.get_ack_value()
+            if value ==None:
+                time.sleep(10)
+                continue
             value = value.decode()
             if value in g_use_ips:
                 value = redis.get_message().decode()
@@ -125,7 +127,6 @@ def check_web_path_scan(web_path_scan:dir):
         raise Exception("web_path_scan thread is error")
     return True
 
-
 def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None):
     '''
     worker function
@@ -172,6 +173,8 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None):
 
         # scan port
         temp = Scan_port.run(value) # return is a dict_keys
+        if temp==None: # error
+            continue
         ports = list(temp)
         if g_debug==1:
             loguru.logger.info(f"scan port ==> ports is {ports}")
@@ -189,9 +192,9 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None):
         thread_num=web_path_scan["thread"]
         web_path=None
         if web_path_scan_mode=="file":
-            web_path=web_path_scanner.scanner(value,file_path="db/dicc.txt",threads=thread_num)
+            web_path=web_path_scanner.scanner(value,file_name="db/dicc.txt",threads=thread_num)
         elif web_path_scan_mode=="dir":
-            web_path=web_path_scanner.scanner(value,dir_path="db",threads=thread_num)
+            web_path=web_path_scanner.scanner(value,file_path="db",threads=thread_num)
         
         # Fingerprint collection
         no_scan_ports=["20","21","22","25","53","80","110","143","443","1433","3389"]
@@ -262,12 +265,18 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None):
 
         # notice
         if g_debug==1:
-            loguru.logger.info("test")
-            break
+            loguru.logger.info("run all")
 
-        # 
-
-        
+        # clear all ret, and into next loop
+        try:
+            if os.path.exists("ret/vuls.txt"):
+                with open("ret/vuls.txt","w") as f: # clear vuls.txt
+                    f.write("") 
+                loguru.logger.info("clear vuls.txt")
+        except Exception as e:
+            loguru.logger.error(e)
+            
+                
 def check_redis(redis_host, redis_port,redis_password):
     # each 5 seconds, try to connect redis, and connect 100 times 
     now_times=0
@@ -291,13 +300,14 @@ def check_redis(redis_host, redis_port,redis_password):
 def main():
 
     redis,es,wps= get_config()
-    if redis_password== "None" or redis_password == "":
-        redis_password = None
 
     redis_host=redis["redis_host"]
     redis_port=redis["redis_port"]
     redis_password=redis["redis_password"]
     message_queue_name=redis["message_name"]
+
+    if redis_password== "None" or redis_password == "":
+        redis_password = None
 
     # check redis host and port
     check_redis(redis_host, redis_port,redis_password)
