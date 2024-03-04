@@ -186,6 +186,7 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None):
 
         # subdomain
         
+        # domain 
 
         # web file
         web_path_scan_mode=web_path_scan["mode"]
