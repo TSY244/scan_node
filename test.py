@@ -1,3 +1,9 @@
+import mytest.scandomain as test_scandomain
+
+ret=test_scandomain.test()
+print(len(ret))
+
+
 # # import info_gathering.web_path_scanner.scanner as web_path_scanner
 
 

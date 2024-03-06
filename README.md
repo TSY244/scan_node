@@ -1,7 +1,10 @@
 # 说明
 1. 请添加扫描web path 目录添加至db目录，本项目使用dirsearch的扫描目录
-[dirsearch](https://github.com/maurosoria/dirsearch/tree/master)
-2. 
+  [dirsearch](https://github.com/maurosoria/dirsearch/tree/master)
+
+2. 关于子域名爆破指定文件路径
+
+   
 
 
 # es设置

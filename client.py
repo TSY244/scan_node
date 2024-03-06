@@ -13,6 +13,8 @@ import tools.vulmap.run as Vulmap
 import tools.read_scan_vuls_ret as read_vuls
 import tools.UseElasticSearch.UseElasticSearch as ES
 import info_gathering.web_path_scanner.scanner as web_path_scanner
+import info_gathering.subdomain.subdomain as subdomain
+import info_gathering.domain.domain as domain
 
 # init loguru
 # loguru.logger.add("server.log", rotation="500 MB", retention="10 days", level="INFO")
@@ -66,8 +68,18 @@ def get_config():
         "thread":int(wpc_thread)
     }
 
+    # subdomain_scanner
+    subdomain_file_path=config['subdomain_scanner']['file_path']
+    subdomain_file_name=config['subdomain_scanner']['file_name']
+    subdomain_thread=config['subdomain_scanner']['thread']
+    subdomain_scan={
+        "file_path":subdomain_file_path,
+        "file_name":subdomain_file_name,
+        "thread":int(subdomain_thread)
+    }
+        
 
-    return redis,es,web_path_scan
+    return redis,es,web_path_scan,subdomain_scan
 
 def get_ip(redis: my_redis.Redis):
     value = None
@@ -127,7 +139,7 @@ def check_web_path_scan(web_path_scan:dir):
         raise Exception("web_path_scan thread is error")
     return True
 
-def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None):
+def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:dir=None):
     '''
     worker function
     es is a dict
@@ -140,6 +152,12 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None):
         key                   vlues
         mode:str              str     #file or dir
         thread:int            int     #thread number
+    subdomain_scan is a dir
+        key                   vlues
+        file_path:str         str     #file path
+        file_name:str         str     #file name
+        thread:int            int     #thread number
+        ; if file_path is not "" use file_path, else use file_name
     '''
     
     # check es 
@@ -184,9 +202,17 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None):
         if g_debug==1:
             loguru.logger.info(f"get area ==> area is {area}")
 
-        # subdomain
-        
         # domain 
+        value2domian=domain.run(value)
+
+
+        # subdomain
+        if value2domian !=None:
+            subdomain_thread_num=subdomain_scan["thread"]
+            subdomain_file_path=subdomain_scan["file_path"]
+            subdomain_file_name=subdomain_scan["file_name"]
+            subdomain_scanner=subdomain.subdomain_scanner(value2domian[4:],threads=subdomain_thread_num,file_path=subdomain_file_path,file_name=subdomain_file_name)
+            subdomains=subdomains=subdomain_scanner.get_subdomains()
 
         # web file
         web_path_scan_mode=web_path_scan["mode"]
@@ -229,6 +255,8 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None):
         info_data["fingerprint"]=fingerprint # fingerprint is a dict
         info_data["vuls"]=vul_numbs # vuls is a list
         info_data["web_path"]=web_path # web_path is a list
+        info_data["domain"]=value2domian # domain is a string
+        info_data["subdomains"]=subdomains # subdomains is a list
 
         # send info data to es
         use_es=ES.MyElasticSearch(es["es_host"],es["es_port"])
@@ -300,7 +328,7 @@ def check_redis(redis_host, redis_port,redis_password):
 
 def main():
 
-    redis,es,wps= get_config()
+    redis,es,wps,subdomain= get_config()
 
     redis_host=redis["redis_host"]
     redis_port=redis["redis_port"]
@@ -322,15 +350,21 @@ def main():
 
 
     # run worker
-    worker(redis=redis,es=es,web_path_scan=wps)
+    worker(redis=redis,es=es,web_path_scan=wps,subdomain_scan=subdomain)
 
 def test(ip:str):
     # ret=TideFinger.run(ip,port)
     # print(ret)
-    web_path_scanner.scanner(ip,file_path="db",threads=10)
+    # web_path_scanner.scanner(ip,file_path="db",threads=10)
+    # test domain
+    t=domain.run(ip)
+    print(t[4:])
+    # test subdomain
+    scanenr=subdomain.subdomain_scanner(t[4:],threads=10,file_name="data/subdomain/dict.txt")
+    print(len(scanenr.get_subdomains()))
 
 if __name__=="__main__":
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
-    main()
-    # test('192.168.79.128')
+    # main()
+    test('218.76.8.98')

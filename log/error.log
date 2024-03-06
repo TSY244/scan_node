@@ -440,3 +440,263 @@
 2024-03-04 11:21:14.589 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.136 can't connect
 2024-03-04 11:21:14.595 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
 2024-03-04 11:21:14.595 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 12:57:23.225 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:57:23.225 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:57:49.286 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:57:49.286 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:58:15.346 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:58:15.346 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:58:41.410 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:58:41.410 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:59:07.467 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:59:07.467 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:59:33.514 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:59:33.514 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:59:59.582 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 12:59:59.582 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:00:25.638 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:00:25.638 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:00:51.697 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:00:51.697 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:01:17.764 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:01:17.764 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:01:43.842 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:01:43.842 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:02:09.896 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:02:09.896 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:02:35.963 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:02:35.963 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:03:02.028 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:03:02.028 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:03:28.094 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:03:28.094 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:03:54.147 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:03:54.147 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:04:20.223 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:04:20.223 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:04:46.277 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:04:46.277 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:05:12.321 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:05:12.321 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:05:38.364 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:05:38.364 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:06:04.422 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:06:04.422 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:06:30.491 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:06:30.491 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:06:56.533 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:06:56.533 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:07:22.596 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:07:22.596 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:07:48.656 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:07:48.656 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:08:14.701 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:08:14.701 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:08:40.753 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:08:40.753 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:09:06.799 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:09:06.799 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:09:32.846 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:09:32.846 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:09:58.917 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:09:58.917 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:10:24.976 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:10:24.976 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:10:51.045 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:10:51.045 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:11:17.105 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:11:17.105 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:11:43.165 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:11:43.165 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:12:09.219 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:12:09.219 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:12:35.258 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:12:35.258 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:13:01.309 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:13:01.309 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:13:27.380 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:13:27.380 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:13:53.448 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:13:53.448 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:14:19.527 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:14:19.527 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:14:45.570 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:14:45.570 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:15:11.624 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:15:11.624 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:15:37.695 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:15:37.695 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:16:03.762 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:16:03.762 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:16:29.810 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:16:29.810 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:16:55.868 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:16:55.868 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:17:21.934 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:17:21.934 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:17:47.985 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:17:47.985 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:18:14.038 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:18:14.038 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:18:40.091 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:18:40.091 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:19:06.150 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:19:06.150 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:19:32.215 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:19:32.215 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:19:58.259 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:19:58.259 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:20:24.301 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:20:24.301 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:20:50.365 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:20:50.365 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:21:16.424 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:21:16.424 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:21:42.477 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:21:42.477 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:22:08.520 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:22:08.520 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:22:34.559 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:22:34.559 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:23:00.613 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:23:00.613 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:23:26.684 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:23:26.684 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:23:52.746 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:23:52.746 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:24:18.800 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:24:18.800 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:24:44.875 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:24:44.875 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:25:10.932 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:25:10.932 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:25:36.981 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:25:36.981 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:26:03.045 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:26:03.045 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:26:29.110 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:26:29.110 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:26:55.173 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:26:55.173 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:27:21.227 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:27:21.227 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:27:47.281 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:27:47.281 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:28:13.346 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:28:13.346 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:28:39.398 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:28:39.398 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:29:05.471 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:29:05.471 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:29:31.531 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:29:31.531 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:29:57.599 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:29:57.599 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:30:23.654 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:30:23.654 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:30:49.730 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:30:49.730 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:31:15.787 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:31:15.787 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:31:41.837 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:31:41.837 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:32:07.886 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:32:07.886 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:32:33.957 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:32:33.957 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:33:00.012 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:33:00.012 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:33:26.084 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:33:26.084 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:33:52.136 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:33:52.136 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:34:18.193 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:34:18.193 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:34:44.263 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:34:44.263 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:35:10.323 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:35:10.323 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:35:36.413 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:35:36.413 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:36:02.470 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:36:02.470 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:36:28.529 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:36:28.529 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:36:54.574 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:36:54.574 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:37:20.634 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:37:20.634 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:37:46.679 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:37:46.679 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:38:12.758 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:38:12.758 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:38:38.822 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:38:38.822 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:39:04.909 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:39:04.909 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:39:30.969 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:39:30.969 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:39:57.042 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:39:57.042 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:40:23.101 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:40:23.101 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 13:40:28.114 | ERROR    | __main__:check_redis:297 - redis connect error
+2024-03-05 13:40:28.114 | ERROR    | __main__:check_redis:297 - redis connect error
+2024-03-05 14:43:39.442 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-05 14:43:39.442 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-05 14:44:11.040 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-05 14:44:11.040 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-05 14:44:42.599 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-05 14:44:42.599 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-05 14:45:14.518 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-05 14:45:14.518 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-05 14:48:02.765 | ERROR    | core.verify:timeout_print:71 - The target is Oracle Weblogic: CVE-2021-2109 connection timeout
+2024-03-05 14:48:02.765 | ERROR    | core.verify:timeout_print:71 - The target is Oracle Weblogic: CVE-2021-2109 connection timeout
+2024-03-05 14:50:11.198 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-05 14:50:11.198 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-05 14:50:42.795 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-05 14:50:42.795 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-05 14:51:14.560 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-05 14:51:14.560 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-05 14:51:59.195 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.129 can't connect
+2024-03-05 14:51:59.195 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.129 can't connect
+2024-03-05 14:52:00.209 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.130 can't connect
+2024-03-05 14:52:00.209 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.130 can't connect
+2024-03-05 14:52:04.343 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.132 can't connect
+2024-03-05 14:52:04.343 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.132 can't connect
+2024-03-05 14:52:05.369 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.133 can't connect
+2024-03-05 14:52:05.369 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.133 can't connect
+2024-03-05 14:52:09.744 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.135 can't connect
+2024-03-05 14:52:09.744 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.135 can't connect
+2024-03-05 14:52:10.767 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.136 can't connect
+2024-03-05 14:52:10.767 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.136 can't connect
+2024-03-05 14:54:27.741 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.138 can't connect
+2024-03-05 14:54:27.741 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.138 can't connect
+2024-03-05 14:54:28.762 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.139 can't connect
+2024-03-05 14:54:28.762 | ERROR    | tools.ip_tools.ip_tools:check_ip_if_connectable:68 - 192.168.79.139 can't connect
+2024-03-05 14:54:28.770 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:54:28.770 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:54:38.782 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:54:38.782 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:54:48.795 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:54:48.795 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:54:58.810 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:54:58.810 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:08.822 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:08.822 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:18.845 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:18.845 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:28.861 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:28.861 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:38.878 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:38.878 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:48.897 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:48.897 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:58.916 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:55:58.916 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:56:08.938 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 14:56:08.938 | ERROR    | tools.redis_tools.my_redis:get_ack_value:70 - redis get ack error
+2024-03-05 19:29:30.790 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 19:29:30.790 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-05 19:29:34.612 | ERROR    | __main__:signal_handler:28 - exit
+2024-03-05 19:29:34.612 | ERROR    | __main__:signal_handler:28 - exit

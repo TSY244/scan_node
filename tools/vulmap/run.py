@@ -1,7 +1,7 @@
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-print(os.path.dirname(os.path.abspath(__file__)))
+# print(os.path.dirname(os.path.abspath(__file__)))
 
 import identify.identify as identify
 import module.globals as globals
@@ -18,7 +18,7 @@ import tools.ip_tools.ip_tools as ip_tools
 import payload.RadHatJBoss as RadHatJBoss
 
 # init log
-loguru.logger.add("log/error.log", rotation="5 MB", retention="10 days", level="ERROR")
+loguru.logger.add("/log/error.log", rotation="5 MB", retention="10 days", level="ERROR")
 
 
 def config(args):

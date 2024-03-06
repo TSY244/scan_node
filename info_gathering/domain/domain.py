@@ -17,7 +17,7 @@ def get_domain(ip):
             for result in results:
                 domain=result['domain']
                 if re.match(r"w{3}.*.com",domain):
-                    print(domain)
+                    # print(domain)
                     return domain
     except Exception as e:
         print(e)
