@@ -700,3 +700,20 @@
 2024-03-05 19:29:30.790 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
 2024-03-05 19:29:34.612 | ERROR    | __main__:signal_handler:28 - exit
 2024-03-05 19:29:34.612 | ERROR    | __main__:signal_handler:28 - exit
+2024-03-07 19:52:46.739 | ERROR    | info_gathering.web_path_scanner.scanner:scanner:60 - db is not exist
+2024-03-07 19:52:46.741 | ERROR    | info_gathering.web_path_scanner.scanner:scanner:78 - db is not exist
+2024-03-07 19:54:17.615 | ERROR    | __main__:signal_handler:30 - exit
+2024-03-07 19:57:07.889 | ERROR    | info_gathering.web_path_scanner.scanner:scanner:60 - db is not exist
+2024-03-07 19:57:07.890 | ERROR    | info_gathering.web_path_scanner.scanner:scanner:78 - db is not exist
+2024-03-07 19:59:37.755 | ERROR    | info_gathering.web_path_scanner.scanner:scanner:60 - db is not exist
+2024-03-07 19:59:37.757 | ERROR    | info_gathering.web_path_scanner.scanner:scanner:78 - db is not exist
+2024-03-07 20:09:44.164 | ERROR    | __main__:signal_handler:30 - exit
+2024-03-07 20:22:55.731 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-07 20:23:27.056 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-07 20:23:58.349 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-07 20:24:30.156 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-07 20:27:13.571 | ERROR    | core.verify:timeout_print:71 - The target is Oracle Weblogic: CVE-2021-2109 connection timeout
+2024-03-07 20:31:06.385 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-07 20:31:37.686 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-07 20:32:08.980 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-07 20:33:01.621 | ERROR    | __main__:signal_handler:30 - exit,beacuse of 2 signal
