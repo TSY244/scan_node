@@ -343,7 +343,7 @@ class WebAnalyzer(object):
 
 def check(url, update):
     w = WebAnalyzer()
-    w.rule_dir = os.path.join(os.getcwd(), "webanalyzer/rules")
+    w.rule_dir = os.path.join(os.getcwd(), "tools/TideFinger/webanalyzer/rules")
 
     if update:
         if w.update_rules():

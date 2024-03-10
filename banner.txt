@@ -1,0 +1,4 @@
+http://192.168.79.128:8081   Jetty | Java
+http://192.168.79.128:7001   JavaServer Pages | Java Servlet
+http://192.168.79.128:7001   JavaServer Pages | Java Servlet
+http://192.168.79.128:5601   Bootstrap

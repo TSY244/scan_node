@@ -207,7 +207,6 @@ def check_redis(redis_host, redis_port,redis_password):
         loguru.logger.error("redis connect error")
         sys.exit(1)
 
-
 def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:dir=None):
     '''
     worker function
@@ -317,7 +316,9 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
             web_path=web_path_scanner.scanner(value,file_name=web_path_file_name,threads=thread_num)
         elif web_path_scan_mode=="dir":
             web_path=web_path_scanner.scanner(value,file_path=web_path_file_path,threads=thread_num)
-        
+        if g_debug==1:
+            loguru.logger.info(f"get web path ==> web_path is {web_path}")
+
         # Fingerprint collection
         no_scan_ports=["20","21","22","25","53","80","110","143","443","1433","3389"]
         fingerprint=None
@@ -325,7 +326,7 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
         # if g_debug==1:
         #     ports=["8080"]
         for port in ports:
-            if port in no_scan_ports:
+            if str(port) in no_scan_ports:
                 loguru.logger.info(f"port {port} is not scan")
                 continue
             fingerprint=TideFinger.run(value,port)  # return is a dict
@@ -334,7 +335,7 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
             if fingerprint["cms_name"]!="Not Found":
                 tide.append(fingerprint["cms_name"])
         if g_debug==1:
-            loguru.logger.info(f"Fingerprint collection ==> fingerprint is {fingerprint}")
+            loguru.logger.info(f"Fingerprint collection ==> fingerprint is {tide}")
 
         # Vulnerability detection
         for port in ports:
@@ -412,7 +413,6 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
         except Exception as e:
             loguru.logger.error(e)
 
-
 def main():
 
     redis,es,wps,subdomain= get_config()
@@ -453,5 +453,5 @@ def test(ip:str,port):
 if __name__=="__main__":
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
-    # main()
-    test('192.168.79.128',8080)
+    main()
+    # test('192.168.79.128',8080)
