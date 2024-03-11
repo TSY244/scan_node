@@ -18,7 +18,7 @@ import info_gathering.domain.domain as domain
 
 # init loguru
 # loguru.logger.add("server.log", rotation="500 MB", retention="10 days", level="INFO")
-loguru.logger.add("/log/error.log", rotation="500 MB", retention="10 days", level="ERROR")
+loguru.logger.add("log/error.log", rotation="500 MB", retention="10 days", level="ERROR")
 
 
 
@@ -413,7 +413,7 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
         except Exception as e:
             loguru.logger.error(e)
 
-def main():
+def client():
 
     redis,es,wps,subdomain= get_config()
 
@@ -453,5 +453,5 @@ def test(ip:str,port):
 if __name__=="__main__":
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
-    main()
+    client()
     # test('192.168.79.128',8080)

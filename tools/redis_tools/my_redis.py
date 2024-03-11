@@ -7,7 +7,7 @@ import loguru
 
 # init loguru
 # loguru.logger.add("redis.log", rotation="500 MB", retention="10 days", level="INFO")
-loguru.logger.add("/log/error.log", rotation="500 MB", retention="10 days", level="ERROR")
+loguru.logger.add("log/error.log", rotation="500 MB", retention="10 days", level="ERROR")
 
 class Redis():
     def __init__(self,redis_host,redis_port,message_name,redis_password=None):

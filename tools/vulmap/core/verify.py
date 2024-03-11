@@ -5,8 +5,8 @@ from module import globals
 from module.output import output
 import loguru
 # init log
-loguru.logger.add("../../log/error.log", rotation="5 MB", retention="10 days", level="ERROR")
-loguru.logger.add("../../log/warn.log", rotation="5 MB", retention="10 days", level="WARNING")
+loguru.logger.add("log/error.log", rotation="5 MB", retention="10 days", level="ERROR")
+loguru.logger.add("log/warn.log", rotation="5 MB", retention="10 days", level="WARNING")
 
 class Verification:
     @staticmethod

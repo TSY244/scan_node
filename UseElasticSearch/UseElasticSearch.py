@@ -54,7 +54,7 @@ class MyElasticSearch:
         return result
     
     def if_index_exit(self,index_name):
-        if self.es.indices.exists(index=index_name):
+        if self.es.indices.exists(index_name):
             return True
         return False
     

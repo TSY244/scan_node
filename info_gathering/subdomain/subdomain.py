@@ -5,7 +5,7 @@ import os
 import loguru
 
 #init log
-loguru.logger.add("/log/error.log", rotation="500 MB", retention="10 days", level="ERROR")
+loguru.logger.add("log/error.log", rotation="500 MB", retention="10 days", level="ERROR")
 
 
 

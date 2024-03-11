@@ -10,7 +10,7 @@ import ping3
 
 # init loguru
 # loguru.logger.add("server.log", rotation="500 MB", retention="10 days", level="INFO")
-loguru.logger.add("../..//log/error.log", rotation="500 MB", retention="10 days", level="ERROR")
+loguru.logger.add("log/error.log", rotation="500 MB", retention="10 days", level="ERROR")
 
 def check_ip_if_valid(ip):
     try:

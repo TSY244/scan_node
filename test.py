@@ -1,7 +1,24 @@
-import mytest.scandomain as test_scandomain
+import tools.UseElasticSearch.UseElasticSearch as es
 
-ret=test_scandomain.test()
-print(len(ret))
+
+use_es=es.MyElasticSearch("192.168.79.128","9200")
+
+use_es.connect()
+
+print(use_es.if_index_exit("vuls"))
+
+# print(use_es.get_index_num("vuls"))
+# ret=use_es.search_data("vuls",size=10)
+# print(ret['hits']['total']['value'],end='\n\n')
+# for i in range(len(ret['hits']['hits'])):
+#     print(ret['hits']['hits'][i]['_source'],end='\n\n')
+# print(use_es.get_index_num())
+
+
+# import mytest.scandomain as test_scandomain
+
+# ret=test_scandomain.test()
+# print(len(ret))
 
 
 # # import info_gathering.web_path_scanner.scanner as web_path_scanner
