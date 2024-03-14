@@ -2,7 +2,9 @@ import socket
 import configparser
 import loguru
 import client
-
+import os
+import signal
+from multiprocessing import Process
 
 # init loguru
 loguru.logger.add("log/error.log", rotation="1 MB", retention="10 days", level="DEBUG")
@@ -33,10 +35,49 @@ def iteractive_node():
         loguru.logger.error(f"connect to server failed: {e}")
         return
     
+    client_p=Process(target=client.client)
+    client_p.start()
+    client_pid=client_p.pid
+    with open("pid.txt", "w") as f:
+        f.write(str(client_pid))
+
     # woker
     while True:
         cmd=i_node_manager.recv(1024).decode()
-        print(cmd)
+        
+        if cmd=="kill":
+            loguru.logger.info("server kill the client")
+            os.kill(client_pid, signal.SIGILL)
+            with open("pid.txt", "w") as f:
+                f.write("")
+            with open("main_pid.txt", "w") as f:
+                f.write("1")
+            pid=os.getpid()
+            os.kill(pid, signal.SIGILL)
+        elif cmd=="stop":
+            if client_p==None:
+                i_node_manager.send("client has not started".encode())
+            os.kill(client_pid, signal.SIGILL)
+            client_p=None
+            loguru.logger.info("server stop the client")
+            with open("pid.txt", "w") as f:
+                f.write("")
+            
+        elif cmd=="start":
+            if client_p!=None:
+                i_node_manager.send("client has started".encode())
+            client_p=Process(target=client.client)
+            client_p.start()
+            loguru.logger.info("server start the client")
+            with open("pid.txt", "w") as f:
+                f.write(str(client_p.pid))
+        elif cmd=="is_live":
+            i_node_manager.send("yes".encode())
+        else:
+            i_node_manager.send("unknow command".encode())
+            
+            
+
 
 
 if __name__ == "__main__":

@@ -717,3 +717,452 @@
 2024-03-07 20:31:37.686 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
 2024-03-07 20:32:08.980 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
 2024-03-07 20:33:01.621 | ERROR    | __main__:signal_handler:30 - exit,beacuse of 2 signal
+2024-03-12 00:21:38.299 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:21:38.299 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:21:38.299 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:21:38.299 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:21:38.299 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:21:38.299 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:21:38.299 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:21:38.299 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:21:38.299 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:21:38.299 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:21:38.307 | INFO     | client:check_redis:202 - can't connect redis
+2024-03-12 00:22:01.506 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:22:01.506 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:22:01.506 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:22:01.506 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:22:01.506 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:22:01.506 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:22:01.506 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:22:01.506 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:22:01.506 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:22:01.506 | ERROR    | tools.redis_tools.my_redis:check_if_connectable:133 - redis can not connect
+2024-03-12 00:22:01.510 | INFO     | client:check_redis:202 - can't connect redis
+2024-03-12 00:26:15.379 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 00:29:52.938 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 00:30:21.897 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 9200, 9300]
+2024-03-12 00:30:22.143 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-12 00:47:17.442 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 00:49:26.260 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 00:49:44.160 | INFO     | interactive_node:iteractive_node:54 - server stop the client
+2024-03-12 00:50:22.728 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 00:50:48.133 | INFO     | interactive_node:iteractive_node:54 - server stop the client
+2024-03-12 00:51:27.982 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 00:51:55.809 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 9200, 9300]
+2024-03-12 00:51:56.051 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-12 00:51:59.200 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 00:51:59.200 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 00:53:21.591 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 00:53:50.270 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 9200, 9300]
+2024-03-12 00:54:09.080 | INFO     | interactive_node:iteractive_node:55 - server stop the client
+2024-03-12 19:09:22.647 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:09:54.649 | INFO     | interactive_node:iteractive_node:46 - server kill the client
+2024-03-12 19:10:06.533 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 8000, 9200, 9300]
+2024-03-12 19:10:08.567 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-12 19:10:10.618 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 19:10:10.618 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 19:11:07.529 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-12 19:11:07.532 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-12 19:11:07.534 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-12 19:11:09.238 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-12 19:11:46.642 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:11:46.642 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:11:46.642 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:11:46.642 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:11:46.642 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:11:46.642 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:11:46.642 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:11:46.642 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:11:46.642 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:11:46.642 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:11:46.657 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-12 19:11:46.680 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-12 19:11:55.904 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:11:55.904 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:11:55.904 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:11:55.904 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:11:55.904 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:11:55.904 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:11:55.904 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:11:55.904 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:11:55.904 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:11:55.904 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:12:05.162 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:12:05.162 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:12:05.162 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:12:05.162 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:12:05.162 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:12:05.162 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:12:05.162 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:12:05.162 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:12:05.162 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:12:05.162 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:12:05.191 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-12 19:12:05.222 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-12 19:12:14.954 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-12 19:12:14.954 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-12 19:12:14.954 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-12 19:12:14.954 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-12 19:12:14.954 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-12 19:12:14.954 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-12 19:12:14.954 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-12 19:12:14.954 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-12 19:12:14.954 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-12 19:12:14.954 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-12 19:12:55.373 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:12:55.373 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:12:55.373 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:12:55.373 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:12:55.373 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:12:55.373 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:12:55.373 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:12:55.373 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:12:55.373 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:12:55.373 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-12 19:12:55.388 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-12 19:12:55.425 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-12 19:13:04.659 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:13:04.659 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:13:04.659 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:13:04.659 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:13:04.659 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:13:04.659 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:13:04.659 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:13:04.659 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:13:04.659 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:13:04.659 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-12 19:13:13.882 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:13:13.882 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:13:13.882 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:13:13.882 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:13:13.882 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:13:13.882 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:13:13.882 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:13:13.882 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:13:13.882 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:13:13.882 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-12 19:13:13.916 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2015-1427
+2024-03-12 19:13:13.978 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2014-3120
+2024-03-12 19:13:27.973 | INFO     | client:worker:345 - Vulnerability detection ==> vuls is []
+2024-03-12 19:13:27.975 | INFO     | client:worker:362 - create info data ==> info_data is {'site': '192.168.79.128', 'ports': [22, 5601, 8000, 9200, 9300], 'area': '', 'fingerprint': {'banner': [], 'cms_name': 'Not Found'}, 'vuls': [], 'web_path': [], 'domain': None, 'subdomains': None}
+2024-03-12 19:13:28.186 | INFO     | client:worker:378 - send info data to es
+2024-03-12 19:13:28.187 | INFO     | client:worker:405 - run all
+2024-03-12 19:13:28.190 | INFO     | client:worker:412 - clear vuls.txt
+2024-03-12 19:13:28.194 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:15:30.821 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:15:43.130 | INFO     | interactive_node:iteractive_node:46 - server kill the client
+2024-03-12 19:40:17.177 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:41:00.713 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 8000, 9200, 9300]
+2024-03-12 19:41:02.774 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-12 19:41:04.831 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 19:41:04.831 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 19:53:17.058 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:21.970 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:23.892 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:24.233 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:24.579 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:24.918 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:25.256 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:25.602 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:25.939 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:26.287 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:26.638 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:26.975 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:27.315 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:27.660 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:29.170 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:29.554 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:29.894 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:30.232 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:30.238 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:30.590 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:30.928 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:31.271 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:31.613 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:31.948 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:32.288 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:33.310 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:33.653 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:34.365 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:35.155 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:36.651 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:37.363 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:43.942 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:44.279 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:44.621 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:44.964 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:45.307 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:53:46.013 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:54:56.067 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 19:55:39.932 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 8000, 9200, 9300]
+2024-03-12 19:55:41.987 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-12 19:55:44.069 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 19:55:44.070 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 19:57:29.818 | INFO     | interactive_node:iteractive_node:49 - server kill the client
+2024-03-12 20:05:35.938 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:35.938 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:35.938 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:35.938 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:35.938 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:35.938 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:35.938 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:35.938 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:35.938 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:35.938 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:50.983 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:50.983 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:50.983 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:50.983 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:50.983 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:50.983 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:50.983 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:50.983 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:50.983 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:05:50.983 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 20:06:04.650 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 20:06:10.387 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 20:06:11.785 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 20:06:12.079 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 20:06:12.277 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 20:06:12.465 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 20:06:12.629 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 20:06:12.773 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 20:06:13.111 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 21:08:09.455 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 21:08:09.455 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 21:08:09.455 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 21:08:09.455 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 21:08:09.455 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 21:08:09.455 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 21:08:09.455 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 21:08:09.455 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 21:08:09.455 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 21:08:09.455 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 21:09:11.911 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 21:09:54.908 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 8000, 9200, 9300]
+2024-03-12 21:09:55.235 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-12 21:10:06.719 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 21:10:06.720 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 21:11:33.708 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-12 21:11:33.711 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-12 21:11:33.711 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-12 21:11:35.020 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-12 21:13:30.506 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:13:30.506 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:13:30.506 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:13:30.506 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:13:30.506 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:13:30.506 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:13:30.506 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:13:30.506 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:13:30.506 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:13:30.506 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:13:30.531 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-12 21:13:30.543 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-12 21:14:01.826 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:14:01.826 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:14:01.826 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:14:01.826 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:14:01.826 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:14:01.826 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:14:01.826 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:14:01.826 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:14:01.826 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:14:01.826 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:14:33.060 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:14:33.060 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:14:33.060 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:14:33.060 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:14:33.060 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:14:33.060 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:14:33.060 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:14:33.060 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:14:33.060 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:14:33.060 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:14:33.101 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-12 21:14:33.133 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-12 21:15:05.037 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-12 21:15:05.037 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-12 21:15:05.037 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-12 21:15:05.037 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-12 21:15:05.037 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-12 21:15:05.037 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-12 21:15:05.037 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-12 21:15:05.037 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-12 21:15:05.037 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-12 21:15:05.037 | ERROR    | core.verify:timeout_print:71 - The target is Spring Data: CVE-2018-1273 connection timeout
+2024-03-12 21:17:11.530 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:17:11.530 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:17:11.530 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:17:11.530 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:17:11.530 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:17:11.530 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:17:11.530 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:17:11.530 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:17:11.530 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:17:11.530 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1224-1 connection timeout
+2024-03-12 21:17:11.547 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-12 21:17:11.578 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-12 21:17:42.871 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:17:42.871 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:17:42.871 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:17:42.871 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:17:42.871 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:17:42.871 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:17:42.871 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:17:42.871 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:17:42.871 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:17:42.871 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1247 connection timeout
+2024-03-12 21:18:14.159 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:18:14.159 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:18:14.159 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:18:14.159 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:18:14.159 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:18:14.159 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:18:14.159 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:18:14.159 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:18:14.159 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:18:14.159 | ERROR    | core.verify:timeout_print:71 - The target is Fastjson: VER-1262 connection timeout
+2024-03-12 21:18:14.181 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2015-1427
+2024-03-12 21:18:14.208 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2014-3120
+2024-03-12 21:18:56.216 | INFO     | client:worker:345 - Vulnerability detection ==> vuls is []
+2024-03-12 21:18:56.218 | INFO     | client:worker:362 - create info data ==> info_data is {'site': '192.168.79.128', 'ports': [22, 5601, 8000, 9200, 9300], 'area': '局域网 局域网  ', 'fingerprint': {'banner': [], 'cms_name': 'Not Found'}, 'vuls': [], 'web_path': [], 'domain': None, 'subdomains': None}
+2024-03-12 21:18:56.261 | INFO     | client:worker:378 - send info data to es
+2024-03-12 21:18:56.261 | INFO     | client:worker:405 - run all
+2024-03-12 21:18:56.262 | INFO     | client:worker:412 - clear vuls.txt
+2024-03-12 21:18:56.264 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 21:19:39.102 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 8000, 9200, 9300]
+2024-03-12 21:19:39.404 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-12 21:19:50.918 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 21:19:50.919 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 23:02:52.823 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:03:56.803 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:04:25.402 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 9200, 9300]
+2024-03-12 23:04:25.630 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-12 23:04:28.539 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 23:04:28.541 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 23:04:53.866 | INFO     | interactive_node:iteractive_node:64 - server stop the client
+2024-03-12 23:17:36.001 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:18:04.624 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 9200, 9300]
+2024-03-12 23:18:04.805 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-12 23:18:09.221 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 23:18:09.222 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 23:18:19.242 | INFO     | interactive_node:iteractive_node:49 - server kill the client
+2024-03-12 23:18:50.483 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:19:11.897 | INFO     | interactive_node:iteractive_node:49 - server kill the client
+2024-03-12 23:19:19.380 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 9200, 9300]
+2024-03-12 23:19:19.556 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-12 23:19:22.734 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 23:19:22.735 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 23:20:35.120 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:21:02.881 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-12 23:25:19.104 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:25:19.104 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:25:19.104 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:25:19.104 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:25:19.104 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:25:19.104 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:25:19.104 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:25:19.104 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:25:19.104 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:25:19.104 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:25:26.408 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:25:27.136 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:25:49.585 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:25:49.792 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:25:49.951 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:25:50.102 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:25:50.262 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:25:50.413 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:25:50.583 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:26:05.216 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:26:22.761 | INFO     | interactive_node:iteractive_node:49 - server kill the client
+2024-03-12 23:26:41.251 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:27:09.644 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 9200, 9300]
+2024-03-12 23:27:09.841 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-12 23:27:14.044 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 23:27:14.044 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 23:27:32.288 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-12 23:45:34.519 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:45:44.656 | INFO     | interactive_node:iteractive_node:70 - server start the client
+2024-03-12 23:46:03.015 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 9200, 9300]
+2024-03-12 23:46:03.182 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-12 23:46:06.388 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-12 23:46:06.389 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-12 23:46:09.068 | INFO     | interactive_node:iteractive_node:49 - server kill the client
+2024-03-12 23:46:37.184 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:46:50.658 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-12 23:47:26.728 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:47:55.242 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-12 23:50:11.270 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:50:34.162 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-12 23:59:18.454 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:59:44.118 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:59:46.104 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:59:46.320 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:59:46.502 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:59:46.701 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:59:47.744 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-12 23:59:55.313 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:59:55.313 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:59:55.313 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:59:55.313 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:59:55.313 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:59:55.313 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:59:55.313 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:59:55.313 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:59:55.313 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-12 23:59:55.313 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:00:26.892 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-13 00:00:39.282 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-13 00:01:39.555 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-13 00:02:08.092 | INFO     | client:worker:282 - scan port ==> ports is [22, 5601, 9200, 9300]
+2024-03-13 00:02:08.275 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-13 00:02:11.427 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-13 00:02:11.428 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-13 00:03:50.423 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-13 00:03:50.427 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-13 00:03:50.427 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-13 00:03:53.472 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-13 00:03:58.620 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-13 00:03:58.650 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-13 00:03:58.670 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-13 00:03:59.865 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-13 00:04:01.030 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-13 00:04:01.066 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-13 00:04:01.098 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-13 00:04:02.751 | INFO     | core.verify:scan_print:40 - The target no Spring Data: CVE-2018-1273
+2024-03-13 00:04:05.777 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-13 00:04:05.803 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-13 00:04:05.835 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-13 00:04:07.019 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-13 00:04:08.186 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-13 00:04:08.219 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2015-1427
+2024-03-13 00:04:08.261 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2014-3120
+2024-03-13 00:04:10.060 | INFO     | client:worker:345 - Vulnerability detection ==> vuls is []
+2024-03-13 00:04:10.062 | INFO     | client:worker:362 - create info data ==> info_data is {'site': '192.168.79.128', 'ports': [22, 5601, 9200, 9300], 'area': '局域网 局域网  ', 'fingerprint': {'banner': [], 'cms_name': 'Not Found'}, 'vuls': [], 'web_path': [], 'domain': None, 'subdomains': None}
+2024-03-13 00:04:10.142 | INFO     | client:worker:378 - send info data to es
+2024-03-13 00:04:10.143 | INFO     | client:worker:405 - run all
+2024-03-13 00:04:10.144 | INFO     | client:worker:412 - clear vuls.txt
+2024-03-13 00:04:10.146 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-13 00:04:21.640 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-13 00:05:14.445 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-13 00:05:30.812 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-13 00:07:28.457 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:07:28.457 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:07:28.457 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:07:28.457 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:07:28.457 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:07:28.457 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:07:28.457 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:07:28.457 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:07:28.457 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:07:28.457 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-13 00:07:35.990 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-13 00:07:47.529 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-13 00:08:16.339 | INFO     | interactive_node:iteractive_node:71 - server start the client
+2024-03-13 00:08:17.569 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-13 00:08:27.062 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-13 00:32:11.211 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-13 00:32:29.080 | INFO     | interactive_node:iteractive_node:62 - server stop the client

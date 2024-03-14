@@ -1,11 +1,16 @@
-import tools.UseElasticSearch.UseElasticSearch as es
+import os
+import sys
+
+print(sys.platform)
+
+# import tools.UseElasticSearch.UseElasticSearch as es
 
 
-use_es=es.MyElasticSearch("192.168.79.128","9200")
+# use_es=es.MyElasticSearch("192.168.79.128","9200")
 
-use_es.connect()
+# use_es.connect()
 
-print(use_es.if_index_exit("vuls"))
+# print(use_es.if_index_exit("vuls"))
 
 # print(use_es.get_index_num("vuls"))
 # ret=use_es.search_data("vuls",size=10)
