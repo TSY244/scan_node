@@ -1166,3 +1166,440 @@
 2024-03-13 00:08:27.062 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
 2024-03-13 00:32:11.211 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
 2024-03-13 00:32:29.080 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-15 19:37:45.058 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 19:38:05.117 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 19:38:05.789 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 19:38:05.956 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 19:38:06.121 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 19:38:53.387 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 19:39:16.508 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-15 19:39:16.545 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-15 19:39:16.937 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-15 19:39:16.938 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-15 19:39:19.489 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-15 19:40:53.582 | INFO     | interactive_node:iteractive_node:71 - server start the client
+2024-03-15 19:40:55.024 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 19:41:18.232 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-15 19:41:18.265 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-15 19:41:18.793 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-15 19:41:18.794 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-15 19:41:23.599 | INFO     | interactive_node:iteractive_node:49 - server kill the client
+2024-03-15 19:42:49.879 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-15 19:42:49.885 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-15 19:42:49.887 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-15 19:42:52.535 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-15 19:43:21.190 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 19:43:21.205 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 19:43:21.236 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 19:43:27.643 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 19:56:22.000 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 19:56:45.167 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-15 19:56:45.202 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-15 19:56:46.251 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-15 19:56:46.253 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-15 19:58:13.662 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-15 19:58:13.666 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-15 19:58:13.669 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-15 19:58:15.334 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-15 19:58:44.628 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 19:58:44.640 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 19:58:44.667 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 19:58:51.062 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 19:58:58.671 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 19:58:58.697 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-15 19:58:58.710 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-15 19:59:05.693 | INFO     | core.verify:scan_print:40 - The target no Spring Data: CVE-2018-1273
+2024-03-15 19:59:19.856 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 19:59:19.873 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 19:59:19.890 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 19:59:26.348 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 19:59:32.816 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 19:59:32.842 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2015-1427
+2024-03-15 19:59:32.851 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2014-3120
+2024-03-15 19:59:40.472 | INFO     | client:worker:345 - Vulnerability detection ==> vuls is []
+2024-03-15 19:59:40.475 | INFO     | client:worker:362 - create info data ==> info_data is {'site': '192.168.79.128', 'ports': [22, 111, 5601, 9200, 9300], 'area': '', 'fingerprint': {'banner': [], 'cms_name': 'Not Found'}, 'vuls': [], 'web_path': [], 'domain': None, 'subdomains': None}
+2024-03-15 19:59:40.576 | INFO     | client:worker:378 - send info data to es
+2024-03-15 19:59:40.578 | INFO     | client:worker:405 - run all
+2024-03-15 19:59:40.579 | INFO     | client:worker:412 - clear vuls.txt
+2024-03-15 19:59:40.582 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 20:00:03.730 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-15 20:00:03.743 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-15 20:00:04.535 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-15 20:00:04.537 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-15 20:01:31.938 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-15 20:01:31.942 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-15 20:01:31.943 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-15 20:01:33.430 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-15 20:02:02.186 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:02:02.209 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:02:02.218 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:02:09.465 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:02:15.912 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:02:15.935 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-15 20:02:15.969 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-15 20:02:22.867 | INFO     | core.verify:scan_print:40 - The target no Spring Data: CVE-2018-1273
+2024-03-15 20:02:36.648 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:02:36.666 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:02:36.697 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:02:43.069 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:02:49.446 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:02:49.478 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2015-1427
+2024-03-15 20:02:49.509 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2014-3120
+2024-03-15 20:02:56.929 | INFO     | client:worker:345 - Vulnerability detection ==> vuls is []
+2024-03-15 20:02:56.931 | INFO     | client:worker:362 - create info data ==> info_data is {'site': '192.168.79.128', 'ports': [22, 111, 5601, 9200, 9300], 'area': '', 'fingerprint': {'banner': [], 'cms_name': 'Not Found'}, 'vuls': [], 'web_path': [], 'domain': None, 'subdomains': None}
+2024-03-15 20:02:56.956 | INFO     | client:worker:378 - send info data to es
+2024-03-15 20:02:56.959 | INFO     | client:worker:405 - run all
+2024-03-15 20:02:56.960 | INFO     | client:worker:412 - clear vuls.txt
+2024-03-15 20:02:56.962 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 20:03:19.813 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-15 20:03:19.825 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-15 20:03:20.239 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-15 20:03:20.241 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-15 20:05:07.443 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-15 20:05:07.446 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-15 20:05:07.448 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-15 20:05:09.451 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-15 20:05:38.684 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:05:38.704 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:05:38.715 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:05:45.096 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:05:51.513 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:05:51.528 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-15 20:05:51.541 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-15 20:05:58.254 | INFO     | core.verify:scan_print:40 - The target no Spring Data: CVE-2018-1273
+2024-03-15 20:06:12.098 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:06:12.104 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:06:12.131 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:06:18.497 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:06:24.882 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:06:24.913 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2015-1427
+2024-03-15 20:06:24.949 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2014-3120
+2024-03-15 20:06:33.371 | INFO     | client:worker:345 - Vulnerability detection ==> vuls is []
+2024-03-15 20:06:33.373 | INFO     | client:worker:362 - create info data ==> info_data is {'site': '192.168.79.128', 'ports': [22, 111, 5601, 9200, 9300], 'area': '', 'fingerprint': {'banner': [], 'cms_name': 'Not Found'}, 'vuls': [], 'web_path': [], 'domain': None, 'subdomains': None}
+2024-03-15 20:06:33.425 | INFO     | client:worker:378 - send info data to es
+2024-03-15 20:06:33.426 | INFO     | client:worker:405 - run all
+2024-03-15 20:06:33.428 | INFO     | client:worker:412 - clear vuls.txt
+2024-03-15 20:06:33.430 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 20:06:56.590 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-15 20:06:56.604 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-15 20:06:56.999 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-15 20:06:57.001 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-15 20:07:41.028 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-15 20:07:41.034 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-15 20:07:41.036 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-15 20:07:42.423 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-15 20:08:11.194 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:08:11.214 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:08:11.223 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:08:17.625 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:08:24.002 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:08:24.017 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-15 20:08:24.030 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-15 20:08:31.023 | INFO     | core.verify:scan_print:40 - The target no Spring Data: CVE-2018-1273
+2024-03-15 20:08:45.825 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:08:45.851 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:08:45.866 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:08:52.508 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:08:58.890 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:08:58.922 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2015-1427
+2024-03-15 20:08:58.940 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2014-3120
+2024-03-15 20:09:06.348 | INFO     | client:worker:345 - Vulnerability detection ==> vuls is []
+2024-03-15 20:09:06.350 | INFO     | client:worker:362 - create info data ==> info_data is {'site': '192.168.79.128', 'ports': [22, 111, 5601, 9200, 9300], 'area': '', 'fingerprint': {'banner': [], 'cms_name': 'Not Found'}, 'vuls': [], 'web_path': [], 'domain': None, 'subdomains': None}
+2024-03-15 20:09:06.374 | INFO     | client:worker:378 - send info data to es
+2024-03-15 20:09:06.376 | INFO     | client:worker:405 - run all
+2024-03-15 20:09:06.379 | INFO     | client:worker:412 - clear vuls.txt
+2024-03-15 20:09:06.380 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 20:09:29.728 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-15 20:09:29.740 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-15 20:09:30.433 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-15 20:09:30.435 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-15 20:10:34.930 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-15 20:10:34.933 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-15 20:10:34.934 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-15 20:10:36.346 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-15 20:11:04.743 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:11:04.763 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:11:04.794 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:11:11.319 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:11:17.771 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:11:17.796 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-15 20:11:17.823 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-15 20:11:24.744 | INFO     | core.verify:scan_print:40 - The target no Spring Data: CVE-2018-1273
+2024-03-15 20:11:38.508 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:11:38.524 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:11:38.538 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:11:44.940 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:11:51.380 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:11:51.412 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2015-1427
+2024-03-15 20:11:51.444 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2014-3120
+2024-03-15 20:11:58.951 | INFO     | client:worker:345 - Vulnerability detection ==> vuls is []
+2024-03-15 20:11:58.953 | INFO     | client:worker:362 - create info data ==> info_data is {'site': '192.168.79.128', 'ports': [22, 111, 5601, 9200, 9300], 'area': '', 'fingerprint': {'banner': [], 'cms_name': 'Not Found'}, 'vuls': [], 'web_path': [], 'domain': None, 'subdomains': None}
+2024-03-15 20:11:58.975 | INFO     | client:worker:378 - send info data to es
+2024-03-15 20:11:58.975 | INFO     | client:worker:405 - run all
+2024-03-15 20:11:58.977 | INFO     | client:worker:412 - clear vuls.txt
+2024-03-15 20:11:58.979 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 20:12:22.335 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-15 20:12:22.349 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-15 20:12:24.176 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-15 20:12:24.177 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-15 20:13:33.984 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-15 20:13:33.988 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-15 20:13:33.989 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-15 20:13:35.439 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-15 20:14:03.696 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:14:03.715 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:14:03.747 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:14:10.130 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:14:16.567 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:14:16.584 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-15 20:14:16.618 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-15 20:14:24.584 | INFO     | core.verify:scan_print:40 - The target no Spring Data: CVE-2018-1273
+2024-03-15 20:14:37.651 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:14:37.669 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:14:37.701 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:14:44.067 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:14:50.538 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:14:50.576 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2015-1427
+2024-03-15 20:14:50.616 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2014-3120
+2024-03-15 20:14:57.977 | INFO     | client:worker:345 - Vulnerability detection ==> vuls is []
+2024-03-15 20:14:57.980 | INFO     | client:worker:362 - create info data ==> info_data is {'site': '192.168.79.128', 'ports': [22, 111, 5601, 9200, 9300], 'area': '', 'fingerprint': {'banner': [], 'cms_name': 'Not Found'}, 'vuls': [], 'web_path': [], 'domain': None, 'subdomains': None}
+2024-03-15 20:14:57.992 | INFO     | client:worker:378 - send info data to es
+2024-03-15 20:14:57.993 | INFO     | client:worker:405 - run all
+2024-03-15 20:14:57.995 | INFO     | client:worker:412 - clear vuls.txt
+2024-03-15 20:14:57.997 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 20:15:21.198 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-15 20:15:21.210 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-15 20:15:21.897 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-15 20:15:21.899 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-15 20:16:11.108 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-15 20:16:11.112 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-15 20:16:11.113 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-15 20:16:12.515 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-15 20:16:42.184 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:16:42.204 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:16:42.214 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:16:48.637 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:16:55.026 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:16:55.057 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-15 20:16:55.097 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-15 20:17:02.139 | INFO     | core.verify:scan_print:40 - The target no Spring Data: CVE-2018-1273
+2024-03-15 20:17:16.228 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-1
+2024-03-15 20:17:16.236 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-15 20:17:16.261 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-15 20:17:22.690 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1247
+2024-03-15 20:17:29.120 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1262
+2024-03-15 20:17:29.151 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2015-1427
+2024-03-15 20:17:29.183 | INFO     | core.verify:scan_print:40 - The target no Elasticsearch: CVE-2014-3120
+2024-03-15 20:17:36.580 | INFO     | client:worker:345 - Vulnerability detection ==> vuls is []
+2024-03-15 20:17:36.582 | INFO     | client:worker:362 - create info data ==> info_data is {'site': '192.168.79.128', 'ports': [22, 111, 5601, 9200, 9300], 'area': '', 'fingerprint': {'banner': [], 'cms_name': 'Not Found'}, 'vuls': [], 'web_path': [], 'domain': None, 'subdomains': None}
+2024-03-15 20:17:36.601 | INFO     | client:worker:378 - send info data to es
+2024-03-15 20:17:36.603 | INFO     | client:worker:405 - run all
+2024-03-15 20:17:36.605 | INFO     | client:worker:412 - clear vuls.txt
+2024-03-15 20:17:36.606 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-15 20:17:59.818 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-15 20:17:59.832 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-15 20:18:00.409 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-15 20:18:00.410 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-15 20:18:54.232 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-22 11:09:06.745 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-22 11:09:06.745 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-22 11:09:06.745 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-22 11:09:06.745 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-22 11:09:06.745 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-22 11:09:06.745 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-22 11:09:06.745 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-22 11:09:06.745 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-22 11:09:06.745 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-22 11:09:06.745 | ERROR    | interactive_node:iteractive_node:35 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-22 11:14:57.403 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-22 11:15:21.134 | INFO     | client:worker:282 - scan port ==> ports is [22, 111]
+2024-03-22 11:15:21.333 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-22 11:15:22.756 | INFO     | interactive_node:iteractive_node:49 - server kill the client
+2024-03-22 11:16:02.002 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-22 11:16:24.318 | INFO     | interactive_node:iteractive_node:62 - server stop the client
+2024-03-22 11:17:35.224 | INFO     | interactive_node:iteractive_node:71 - server start the client
+2024-03-22 11:17:36.375 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-22 11:17:59.577 | INFO     | client:worker:282 - scan port ==> ports is [22, 111]
+2024-03-22 11:17:59.747 | INFO     | client:worker:287 - get area ==> area is 局域网 局域网  
+2024-03-22 11:18:03.754 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-22 11:18:03.756 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 11:16:23.994 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 11:16:53.737 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 11:16:55.798 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 11:16:57.855 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 11:16:57.857 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 11:17:43.645 | INFO     | interactive_node:do_kill:29 - server kill the client
+2024-03-23 11:19:08.145 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 11:19:36.725 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 11:19:38.785 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 11:19:40.828 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 11:19:40.828 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 11:39:30.412 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 11:39:59.027 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 11:40:01.082 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 11:40:03.146 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 11:40:03.147 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 11:41:52.950 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 11:41:52.950 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 11:41:52.950 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 11:41:52.950 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 11:41:52.950 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 11:41:52.950 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 11:41:52.950 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 11:41:52.950 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 11:41:52.950 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 11:41:52.950 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 11:42:16.275 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 11:42:45.178 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 11:42:47.215 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 11:42:49.273 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 11:42:49.274 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 11:44:31.108 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 11:44:59.940 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 11:45:02.008 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 11:45:04.081 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 11:45:04.082 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 11:45:28.492 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 11:45:57.198 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 11:45:59.265 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 11:46:01.326 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 11:46:01.326 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 11:46:51.756 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 11:47:20.922 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 11:48:27.018 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 11:48:36.807 | INFO     | interactive_node:do_stop:43 - server stop the client
+2024-03-23 11:49:39.955 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 11:50:11.666 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 11:50:27.502 | INFO     | interactive_node:do_stop:43 - server stop the client
+2024-03-23 12:01:24.056 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:01:52.477 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 12:01:54.535 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 12:01:56.565 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 12:01:56.566 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 12:02:13.059 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:02:41.757 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 12:02:43.821 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 12:02:45.879 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 12:02:45.880 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 12:04:44.426 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:05:13.270 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 12:05:15.311 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 12:05:17.356 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 12:05:17.356 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 12:08:14.450 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-23 12:08:14.454 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-23 12:08:14.456 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-23 12:09:31.535 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 12:09:31.535 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 12:09:31.535 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 12:09:31.535 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 12:09:31.535 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 12:09:31.535 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 12:09:31.535 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 12:09:31.535 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 12:09:31.535 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 12:09:31.535 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 12:09:46.098 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:12:46.131 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:13:04.851 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:13:13.614 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:13:14.634 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:13:14.928 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:13:15.148 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:13:34.383 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:14:01.960 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 12:14:04.019 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 12:14:06.060 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 12:14:06.061 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 12:16:52.906 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:17:21.808 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 12:17:23.367 | INFO     | interactive_node:do_stop:43 - server stop the client
+2024-03-23 12:18:54.073 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 12:19:11.140 | INFO     | interactive_node:do_stop:43 - server stop the client
+2024-03-23 13:51:18.554 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 13:51:36.312 | INFO     | interactive_node:do_stop:43 - server stop the client
+2024-03-23 13:52:55.361 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 13:52:55.361 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 13:52:55.361 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 13:52:55.361 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 13:52:55.361 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 13:52:55.361 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 13:52:55.361 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 13:52:55.361 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 13:52:55.361 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 13:52:55.361 | ERROR    | interactive_node:iteractive_node:70 - connect to server failed: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2024-03-23 13:53:16.815 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 13:53:25.754 | INFO     | interactive_node:do_stop:43 - server stop the client
+2024-03-23 13:53:45.502 | INFO     | interactive_node:do_start:53 - server start the client
+2024-03-23 13:53:46.713 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 13:54:15.202 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 13:54:17.252 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 13:54:19.314 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 13:54:19.316 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 13:54:46.685 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-23 13:54:46.688 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-23 13:54:46.689 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-23 13:54:48.536 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-23 13:55:39.976 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-23 13:55:39.976 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-23 13:55:39.976 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-23 13:55:39.976 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-23 13:55:39.976 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-23 13:55:39.976 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-23 13:55:39.976 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-23 13:55:39.976 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-23 13:55:39.976 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-23 13:55:39.976 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1224-1 connection failed
+2024-03-23 13:55:39.986 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-2
+2024-03-23 13:55:40.018 | INFO     | core.verify:scan_print:40 - The target no Fastjson: VER-1224-3
+2024-03-23 13:55:49.285 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-23 13:55:49.285 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-23 13:55:49.285 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-23 13:55:49.285 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-23 13:55:49.285 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-23 13:55:49.285 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-23 13:55:49.285 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-23 13:55:49.285 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-23 13:55:49.285 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-23 13:55:49.285 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1247 connection failed
+2024-03-23 13:55:58.520 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-23 13:55:58.520 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-23 13:55:58.520 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-23 13:55:58.520 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-23 13:55:58.520 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-23 13:55:58.520 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-23 13:55:58.520 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-23 13:55:58.520 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-23 13:55:58.520 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-23 13:55:58.520 | ERROR    | core.verify:connection_print:86 - The target is Fastjson: VER-1262 connection failed
+2024-03-23 13:55:58.534 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2020-5410
+2024-03-23 13:55:58.566 | INFO     | core.verify:scan_print:40 - The target no Spring Cloud: CVE-2019-3799
+2024-03-23 13:56:08.376 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-23 13:56:08.376 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-23 13:56:08.376 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-23 13:56:08.376 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-23 13:56:08.376 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-23 13:56:08.376 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-23 13:56:08.376 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-23 13:56:08.376 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-23 13:56:08.376 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-23 13:56:08.376 | ERROR    | core.verify:connection_print:86 - The target is Spring Data: CVE-2018-1273 connection failed
+2024-03-23 13:56:25.330 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 13:56:53.821 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 13:56:55.863 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 13:56:56.706 | INFO     | interactive_node:do_stop:43 - server stop the client
+2024-03-23 13:57:52.520 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 13:58:21.097 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 13:58:23.157 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 13:58:25.211 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 13:58:25.212 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 13:58:53.423 | SUCCESS  | info_gathering.web_path_scanner.scanner:scanner:81 - Scan complete
+2024-03-23 13:58:53.427 | INFO     | client:worker:320 - get web path ==> web_path is []
+2024-03-23 13:58:53.428 | INFO     | client:worker:330 - port 22 is not scan
+2024-03-23 13:58:54.881 | INFO     | client:worker:338 - Fingerprint collection ==> fingerprint is ['Bootstrap']
+2024-03-23 13:59:05.339 | INFO     | client:worker:274 - get ip ==> ip is 192.168.79.128
+2024-03-23 13:59:34.001 | INFO     | client:worker:282 - scan port ==> ports is [22, 111, 5601, 9200, 9300]
+2024-03-23 13:59:36.055 | INFO     | client:worker:287 - get area ==> area is 
+2024-03-23 13:59:38.098 | INFO     | client:worker:292 - get domain ==> domain is None
+2024-03-23 13:59:38.099 | INFO     | client:worker:305 - get subdomains ==> subdomains is None
+2024-03-23 13:59:50.754 | INFO     | interactive_node:do_stop:43 - server stop the client

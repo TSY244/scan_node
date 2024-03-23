@@ -1,7 +1,16 @@
 import os
 import sys
+import socket
+import tools.FileTransfer.client_tcp as get_file
 
-print(sys.platform)
+
+client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+client.connect(("127.0.0.1",9999))
+file_path=os.path.dirname(os.path.abspath(__file__))
+get_file.run(client,file_path)
+
+
+
 
 # import tools.UseElasticSearch.UseElasticSearch as es
 
