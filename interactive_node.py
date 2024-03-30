@@ -8,7 +8,7 @@ from multiprocessing import Process
 import tools.FileTransfer.client_tcp as download_client
 
 # init loguru
-loguru.logger.add("log/error.log", rotation="1 MB", retention="10 days", level="DEBUG")
+loguru.logger.add("log/error.log", rotation="1 MB", retention="10 days", level="ERROR")
 
 
 def get_config():

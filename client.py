@@ -20,9 +20,11 @@ import info_gathering.domain.domain as domain
 # loguru.logger.add("server.log", rotation="500 MB", retention="10 days", level="INFO")
 loguru.logger.add("log/error.log", rotation="500 MB", retention="10 days", level="ERROR")
 
+config=configparser.ConfigParser()
+config.read("config.ini")
+g_debug=int(config["COMMON"]["debug"])
+if_use_log=int(config["COMMON"]["use_log"])
 
-
-g_debug=1
 g_use_ips=[]
 g_time=0
 
@@ -239,12 +241,12 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
         sys.exit(1)
     es["es_port"]=int(es["es_port"]) if type(es["es_port"])==str else es["es_port"]
 
-    # # check web_path_scan
-    # try:
-    #     check_web_path_scan(web_path_scan)
-    # except Exception as e:
-    #     loguru.logger.error(e)
-    #     sys.exit(1)
+    # check web_path_scan
+    try:
+        check_web_path_scan(web_path_scan)
+    except Exception as e:
+        loguru.logger.error(e)
+        sys.exit(1)
 
     # check web path scan
     try:
@@ -263,7 +265,7 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
     # ip size is 10
     while True:
         if g_debug==1:
-            value="192.168.79.128"
+            value="192.168.79.137"
         else:
             value=get_ip(redis)
         # check if ip can connect
@@ -274,25 +276,41 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
         loguru.logger.info(f"get ip ==> ip is {value}")
 
         # scan port
+        if if_use_log==1:
+            loguru.logger.info(f"begin scan port, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
         temp = Scan_port.run(value) # return is a dict_keys
         if temp==None: # error
             continue
         ports = list(temp)
         if g_debug==1:
             loguru.logger.info(f"scan port ==> ports is {ports}")
-        
+        if if_use_log==1:
+            loguru.logger.info(f"scan port end, end time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
+
         # get area
+        if if_use_log==1:
+            loguru.logger.info(f"begin get area, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
         area=Area.run(value)
         area=area.split(" ")
+        ares=[i for i in area if i!=""]
+        area=ares
         if g_debug==1:
             loguru.logger.info(f"get area ==> area is {area}")
+        if if_use_log==1:
+            loguru.logger.info(f"get area end, end time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
 
         # domain 
+        if if_use_log==1:
+            loguru.logger.info(f"begin get domain, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
         value2domian=domain.run(value)
         if g_debug==1:
             loguru.logger.info(f"get domain ==> domain is {value2domian}")
+        if if_use_log==1:
+            loguru.logger.info(f"get domain end, end time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
 
         # subdomain
+        if if_use_log==1:
+            loguru.logger.info(f"begin get subdomains, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
         subdomains=None
         if value2domian !=None:
             subdomain_thread_num=subdomain_scan["thread"]
@@ -304,8 +322,12 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
             subdomains=subdomain_scanner.get_subdomains()
         if g_debug==1:
             loguru.logger.info(f"get subdomains ==> subdomains is {subdomains}")
+        if if_use_log==1:
+            loguru.logger.info(f"get subdomains end, end time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
 
         # web file
+        if if_use_log==1:
+            loguru.logger.info(f"begin get web path, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
         web_path_scan_mode=web_path_scan["mode"]
         thread_num=web_path_scan["thread"]
         if web_path_scan_mode=="file":
@@ -319,8 +341,12 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
             web_path=web_path_scanner.scanner(value,file_path=web_path_file_path,threads=thread_num)
         if g_debug==1:
             loguru.logger.info(f"get web path ==> web_path is {web_path}")
+        if if_use_log==1:
+            loguru.logger.info(f"get web path end, end time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
 
         # Fingerprint collection
+        if if_use_log==1:
+            loguru.logger.info(f"begin Fingerprint collection, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
         no_scan_ports=["20","21","22","25","53","80","110","143","443","1433","3389"]
         fingerprint=None
         tide=[]
@@ -331,23 +357,31 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
                 loguru.logger.info(f"port {port} is not scan")
                 continue
             fingerprint=TideFinger.run(value,port)  # return is a dict
-            tide=[]
             if len(fingerprint["banner"]) != 0:
                 for i in fingerprint["banner"]:
                    tide.append(i) 
             if fingerprint["cms_name"]!="Not Found":
                 tide.append(fingerprint["cms_name"])
+        tide=list(set(tide))
         if g_debug==1:
             loguru.logger.info(f"Fingerprint collection ==> fingerprint is {tide}")
+        if if_use_log==1:
+            loguru.logger.info(f"Fingerprint collection end, end time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
 
         # Vulnerability detection
+        if if_use_log==1:
+            loguru.logger.info(f"begin Vulnerability detection, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
         for port in ports:
             Vulmap.start(value,str(port))
         vuls=read_vuls.read_data("ret/vuls.txt")
         if g_debug==1:
             loguru.logger.info(f"Vulnerability detection ==> vuls is {vuls}")
+        if if_use_log==1:
+            loguru.logger.info(f"Vulnerability detection end, end time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
 
         # crete info data
+        if if_use_log==1:
+            loguru.logger.info(f"begin create info data, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
         info_data={}
         vul_numbs=[]
         for vul in vuls:
@@ -363,9 +397,12 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
         info_data["subdomains"]=subdomains # subdomains is a list
         if g_debug==1:
             loguru.logger.info(f"create info data ==> info_data is {info_data}")
-
+        if if_use_log==1:
+            loguru.logger.info(f"create info data end, end time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
 
         # send info data to es
+        if if_use_log==1:
+            loguru.logger.info(f"begin send info data to es, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
         use_es=ES.MyElasticSearch(es["es_host"],es["es_port"])
         try:
             use_es.connect()
@@ -379,8 +416,12 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
             loguru.logger.error(e)
         if g_debug==1:
             loguru.logger.info("send info data to es")
+        if if_use_log==1:
+            loguru.logger.info(f"send info data to es end, end time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
 
         # crete vuls data
+        if if_use_log==1:
+            loguru.logger.info(f"begin send vuls to es, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
         for vul in vuls:
             vul_data={}
             vul=eval(vul)
@@ -402,6 +443,8 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
                 continue
             if g_debug==1:
                 loguru.logger.info(f"send vuls is {vul_data}")
+        if if_use_log==1:
+            loguru.logger.info(f"send vuls to es end, end time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
 
         # notice
         if g_debug==1:
@@ -444,14 +487,8 @@ def client():
 
 def test(ip:str,port):
     ret=TideFinger.run(ip,str(port))
+    print(type(ret))
     print(ret)
-    # web_path_scanner.scanner(ip,file_path="db",threads=10)
-    # test domain
-    # t=domain.run(ip)
-    # print(t[4:])
-    # # test subdomain
-    # scanenr=subdomain.subdomain_scanner(t[4:],threads=10,file_name="data/subdomain/dict.txt")
-    # print(len(scanenr.get_subdomains()))
 
 if __name__=="__main__":
     signal.signal(signal.SIGINT, signal_handler)
