@@ -1,6 +1,6 @@
 # 说明
 1. 请添加扫描web path 目录添加至db目录，本项目使用dirsearch的扫描目录
-  [dirsearch](https://github.com/maurosoria/dirsearch/tree/master)
+    [dirsearch](https://github.com/maurosoria/dirsearch/tree/master)
 
 2. 关于子域名爆破指定文件路径
 
@@ -13,15 +13,15 @@ es 主要是有两个索引组成，info  和vuls ，分别记载info 和vuls
 
 info
 
-| code_name | 名称     | 属性 | 描述                                                         | example                                                    | 状态   |
-| --------- | -------- | ---- | ------------------------------------------------------------ | ---------------------------------------------------------- | ------ |
-| site      | url      | str  | 主要的站点                                                   | http://ip                                                  | 实现   |
-| port      | 端口     | str  | 主站点对应的端口信息                                         | 8080,7001                                                  | 实现   |
-| area      | 地区     | str  | url,ip 对应的地点                                            | 如果是局域网是：局域网 局域网<br />如果是真实的url：省  市 | 实现   |
-| subdomain | 子域名   | str  | 主站点的其他域名                                             | http://xxx.ip                                              | 未实现 |
-| webpath   | web路径  | list | 每一个元素是一个str，每一个站点可能对应一个webfile<br />如果是有多个子域名的话，将会有对应的情况 | \a\b\c                                                     | 实现   |
-| vuls      | 漏洞目录 | list | 一个列表，每一个成员都是一个str，对应一个prt_name            | []                                                         | 实现   |
-| tide      | 指纹     | str  | 该站点使用到的技术                                           | spring boot                                                | 实现   |
+| code_name | 名称     | 属性 | 描述                                                         | example                                                    | 状态 |
+| --------- | -------- | ---- | ------------------------------------------------------------ | ---------------------------------------------------------- | ---- |
+| site      | url      | str  | 主要的站点                                                   | http://ip                                                  | 实现 |
+| port      | 端口     | str  | 主站点对应的端口信息                                         | 8080,7001                                                  | 实现 |
+| area      | 地区     | str  | url,ip 对应的地点                                            | 如果是局域网是：局域网 局域网<br />如果是真实的url：省  市 | 实现 |
+| subdomain | 子域名   | str  | 主站点的其他域名                                             | http://xxx.ip                                              | 实现 |
+| webpath   | web路径  | list | 每一个元素是一个str，每一个站点可能对应一个webfile<br />如果是有多个子域名的话，将会有对应的情况 | \a\b\c                                                     | 实现 |
+| vuls      | 漏洞目录 | list | 一个列表，每一个成员都是一个str，对应一个prt_name            | []                                                         | 实现 |
+| tide      | 指纹     | list | 该站点使用到的技术                                           | spring boot                                                | 实现 |
 
 
 

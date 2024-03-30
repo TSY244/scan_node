@@ -283,6 +283,7 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
         
         # get area
         area=Area.run(value)
+        area=area.split(" ")
         if g_debug==1:
             loguru.logger.info(f"get area ==> area is {area}")
 
@@ -330,8 +331,10 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
                 loguru.logger.info(f"port {port} is not scan")
                 continue
             fingerprint=TideFinger.run(value,port)  # return is a dict
+            tide=[]
             if len(fingerprint["banner"]) != 0:
-                tide+=fingerprint["banner"]
+                for i in fingerprint["banner"]:
+                   tide.append(i) 
             if fingerprint["cms_name"]!="Not Found":
                 tide.append(fingerprint["cms_name"])
         if g_debug==1:
@@ -352,8 +355,8 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
             vul_numbs.append(vul["vul_numb"])
         info_data["site"]=value # ip is a string
         info_data["ports"]=ports # ports is a list
-        info_data["area"]=area # area is a string
-        info_data["fingerprint"]=fingerprint # fingerprint is a dict
+        info_data["area"]=area # area is a list
+        info_data["tide"]=tide # tide is a list
         info_data["vuls"]=vul_numbs # vuls is a list
         info_data["web_path"]=web_path # web_path is a list
         info_data["domain"]=value2domian # domain is a string
