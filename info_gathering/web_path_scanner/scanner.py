@@ -101,7 +101,7 @@ def scanner(ip,port:int=80,file_name:str=None,file_path:list=None,threads=10):
         return False
     
     loguru.logger.success("Scan complete")
-    return existence
+    return list(set(existence))
 
         
 

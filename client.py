@@ -339,6 +339,7 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
             web_path=web_path_scanner.scanner(value,file_name=web_path_file_name,threads=thread_num)
         elif web_path_scan_mode=="dir":
             web_path=web_path_scanner.scanner(value,file_path=web_path_file_path,threads=thread_num)
+        web_path=list(set(web_path))
         if g_debug==1:
             loguru.logger.info(f"get web path ==> web_path is {web_path}")
         if if_use_log==1:
@@ -350,8 +351,9 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
         no_scan_ports=["20","21","22","25","53","80","110","143","443","1433","3389"]
         fingerprint=None
         tide=[]
-        # if g_debug==1:
-        #     ports=["8080"]
+        if g_debug==1:
+            ports=["8080"]
+            
         for port in ports:
             if str(port) in no_scan_ports:
                 loguru.logger.info(f"port {port} is not scan")
@@ -371,6 +373,8 @@ def worker(redis: my_redis.Redis,es:dict,web_path_scan:dir=None,subdomain_scan:d
         # Vulnerability detection
         if if_use_log==1:
             loguru.logger.info(f"begin Vulnerability detection, start time is {time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))}")
+        if g_debug==1:
+            ports=["8080"]
         for port in ports:
             Vulmap.start(value,str(port))
         vuls=read_vuls.read_data("ret/vuls.txt")
@@ -486,9 +490,12 @@ def client():
     worker(redis=redis,es=es,web_path_scan=wps,subdomain_scan=subdomain)
 
 def test(ip:str,port):
-    ret=TideFinger.run(ip,str(port))
-    print(type(ret))
-    print(ret)
+    # ret=TideFinger.run(ip,str(port))
+    # print(type(ret))
+    # print(ret)
+    es=ES.MyElasticSearch("192.168.79.128",9200)
+    es.connect()
+    es.insert_data("vuls",{"site":"1","prt_name":"1","vul_name":"1","vul_numb":"1","vul_type":"1","vul_urls":"1","vul_payd":"1"})
 
 if __name__=="__main__":
     signal.signal(signal.SIGINT, signal_handler)

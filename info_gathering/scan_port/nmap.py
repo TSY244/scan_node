@@ -1237,3 +1237,10 @@ def convert_nmap_output_to_encoding(value, code="ascii"):
 
 
 # <EOF>######################################################################
+if __name__ == "__main__":
+    nm=PortScanner()
+    host='192.168.79.128'
+    ports='22-10000'
+    nm.scan(host, ports)
+    ports=nm[host]['tcp'].keys()
+    print(ports)

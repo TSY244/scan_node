@@ -65,6 +65,7 @@ def iteractive_node():
     # create a iteractive node manager
     try:
         i_node_manager=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        # i_node_manager.bind(("0.0.0.0", 24456))
         i_node_manager.connect(server_addr)
     except Exception as e:
         loguru.logger.error(f"connect to server failed: {e}")
